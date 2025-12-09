@@ -2,16 +2,33 @@
 
 このリポジトリには、Home Assistant用のカスタムコンポーネントが含まれています。
 
-## インストール方法
+## 🔧 HACSでのインストール方法
 
-### HACS経由でのインストール
+⚠️ **重要**: HACSでは、各インテグレーションが**専用のブランチ**に配置されています。インストール時に正しいブランチを指定してください。
+
+### CUPS (OpenPrinting) のインストール
 
 1. HACSを開く
 2. 「Integrations」をクリック
-3. 右上のメニューから「Custom repositories」を選択
-4. リポジトリURL `https://github.com/98kuwa036/homeasistant` を追加
-5. カテゴリーを「Integration」として選択
-6. インストールしたいコンポーネントを検索してインストール
+3. 右上のメニュー（︙）から「Custom repositories」を選択
+4. 以下の情報を入力：
+   - リポジトリURL: `https://github.com/98kuwa036/homeasistant`
+   - カテゴリー: `Integration`
+5. ⭐ **重要**: リポジトリを追加する際、ブランチとして `hacs/cups` を指定
+6. 「CUPS (OpenPrinting)」をインストール
+7. Home Assistantを再起動
+
+### Nature Remo のインストール
+
+1. HACSを開く
+2. 「Integrations」をクリック
+3. 右上のメニュー（︙）から「Custom repositories」を選択
+4. 以下の情報を入力：
+   - リポジトリURL: `https://github.com/98kuwa036/homeasistant`
+   - カテゴリー: `Integration`
+5. ⭐ **重要**: リポジトリを追加する際、ブランチとして `hacs/nature_remo` を指定
+6. 「Nature Remo」をインストール
+7. Home Assistantを再起動
 
 ### 手動インストール
 
@@ -73,3 +90,12 @@ Nature Remo スマートリモコンをHome Assistantに統合します。
 ## 貢献
 
 プルリクエストを歓迎します。大きな変更の場合は、まず Issue を開いて変更内容を議論してください。
+
+## 🔖 バージョン
+
+- **CUPS (OpenPrinting)**: v1.1.0 ([hacs/cups ブランチ](https://github.com/98kuwa036/homeasistant/tree/hacs/cups))
+- **Nature Remo**: v1.0.1 ([hacs/nature_remo ブランチ](https://github.com/98kuwa036/homeasistant/tree/hacs/nature_remo))
+
+## 📖 詳細情報
+
+各インテグレーションの詳細な機能や設定方法については、それぞれのブランチのREADMEを参照してください。
