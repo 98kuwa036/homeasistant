@@ -3,10 +3,10 @@
   "name": "CUPS (OpenPrinting)",
   "codeowners": ["@98kuwa036"],
   "config_flow": true,
-  "documentation": "https://github.com/98kuwa036/codings",
+  "documentation": "https://github.com/98kuwa036/homeasistant",
   "integration_type": "hub",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/98kuwa036/codings/issues",
+  "issue_tracker": "https://github.com/98kuwa036/homeasistant/issues",
   "requirements": ["pyipp>=0.9.0"],
   "version": "1.1.0",
   "zeroconf": ["_ipp._tcp.local.", "_ipps._tcp.local."]
